@@ -1,0 +1,66 @@
+/* Table Contents
+1. HTML root Properties 
+2 (a). Header Properties
+2 (b). Header Propertes additional styling, animation
+3 (a). Body Properties
+3 (b). Body Propertes additional styling, animation
+4 (a). Footer Properties
+4 (b). Footer Propertes additional styling, animation
+4 (c). Footer: Mobile responsivness media query  */
+
+/* 1. HTML root Properties  */
+/* applied to reset the CSS file */
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(242, 236, 253) ;
+}
+
+
+/* 2 (a). Header Properties */
+/* container properties for navbar */
+nav {
+    color: rgb(146, 21, 21);
+
+}
+
+/* As per wireframe strategy I wanted to add a buffer from the top  of the browser to the header.container  */
+.header-buffer {
+    height: 25px;
+}
+
+/* 3 (a). Body Properties */
+
+.body-buffer1 {
+    margin: 110px;  
+}
+.body-buffer2 {
+    margin: 170px;  
+}
+.body-buffer3 {
+    margin: 70vh;  
+}
+h1 {
+    font-size: 75px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-image{
+    border-radius: 315px;
+    opacity: 50%;
+}
+
+.header-image:hover{
+    border-radius: 315px;
+    opacity: 100%;
+    cursor:crosshair ;
+
+}
+
+worklist {
+    justify-content: space-between;
+}
