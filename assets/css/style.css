@@ -62,7 +62,7 @@ h1 {
 
 }
 .workBuffer {
-    padding-top: 20vh;
+    padding-top: 10vh;
 }
 section {
     display: flex;
@@ -93,7 +93,7 @@ section::after{
     left: 0;
     width: 100%;
     height: 100%;
-    background:rgb(253, 220, 129);
+    background:rgba(77, 47, 102, 0.623);
     clip-path: circle(35% at 0% 100%);
 }
 .container {
@@ -133,7 +133,7 @@ section::after{
     transform: translateY(-100px);
 }
 .container .card .imgBx img{
-    max-width:30vw;
+    max-width:20vw;
     margin: 0 0 20px;
     transition: 0.5s ease-in-out;
     
@@ -142,6 +142,10 @@ section::after{
 .container .card:hover .imgBx #wd_projectLink0 {
 transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
 }
+
+.container .card:hover .imgBx  #wd_projectLink1 {
+    transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
+    }
 
 .container .card .imgBx h4 {
     color: rgb(255, 255, 255) ;
