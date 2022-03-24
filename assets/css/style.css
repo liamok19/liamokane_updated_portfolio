@@ -18,15 +18,15 @@
 }
 
 body {
-    background-color: #232323 ;
+    background-color: #c0BBB2 ;
 }
 
 
 /* 2 (a). Header Properties */
 /* container properties for navbar */
-nav {
-    color: rgb(146, 21, 21);
-
+a {
+    color: #21313b;
+    text-decoration: none;
 }
 
 /* As per wireframe strategy I wanted to add a buffer from the top  of the browser to the header.container  */
@@ -67,7 +67,7 @@ section {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #232323;
+    background: #5f5d5a;
     overflow: hidden;
     padding: 100px 20px;
     box-sizing: border-box;
@@ -80,7 +80,7 @@ section::before{
     left: 0;
     width: 100%;
     height: 100%;
-    background:rgb(146, 21, 21);
+    background:#91B2C7;
     clip-path: circle(65% at 100% -20%);
 }
 
@@ -91,22 +91,22 @@ section::after{
     left: 0;
     width: 100%;
     height: 100%;
-    background:rgb(21, 96, 146);
+    background:rgb(253, 220, 129);
     clip-path: circle(35% at 0% 100%);
 }
 .container {
     position: relative;
     z-index: 10;
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
 }
 
 .container .card {
     position: relative;  
-    width: 300px;
-    height: 400px;
+    width: 335px;
+    height: 500px;
     margin: 20px 40px;
     display: flex;
     justify-content: center;
@@ -131,13 +131,13 @@ section::after{
     transform: translateY(-100px);
 }
 .container .card .imgBx img{
-    max-width: 50vw;
+    max-width:30vw;
     margin: 0 0 20px;
     transition: 0.5s ease-in-out;
     
 }
 
-.container .card:hover .imgBx img {
+.container .card:hover .imgBx #wd_projectLink0 {
 transform: translate(-20px,-40px) rotate(-25deg) scale(1.2);
 }
 
@@ -147,21 +147,21 @@ transform: translate(-20px,-40px) rotate(-25deg) scale(1.2);
 }
 
 .container .card .content{
-    position: absolute;
+    /* position: absolute; */
     bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     transition: 0.5s ease-in-out;
-    /* opacity: 0;
-    visibility: hidden; */
+    opacity: 0;
+    visibility: hidden;
 }
-/* .container .card:hover .content{
+.container .card:hover .content{
     opacity: 1;
     visibility: visible;
     transform:translateY(-50px); 
-} */
+}
 .container .card .content .github,
 .container .card .content .logline {
     display: flex;
@@ -181,7 +181,7 @@ transform: translate(-20px,-40px) rotate(-25deg) scale(1.2);
 }
 
 .container .card .content .logline {
-    width: 26px;
+    width: 500px;
     height: 26px;
     text-align: center;
     line-height: 24px;
