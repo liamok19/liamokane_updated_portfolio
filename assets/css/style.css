@@ -154,9 +154,39 @@ transform: translate(-20px,-40px) rotate(-25deg) scale(1.2);
     align-items: center;
     flex-direction: column;
     transition: 0.5s ease-in-out;
+    /* opacity: 0;
+    visibility: hidden; */
 }
-.container .card .content .github {
+/* .container .card:hover .content{
+    opacity: 1;
+    visibility: visible;
+    transform:translateY(-50px); 
+} */
+.container .card .content .github,
+.container .card .content .logline {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 8px 20px ;
+}
+
+.container .card .content .github h5,
+.container .card .content .logline  h5  {
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+
+.container .card .content .logline {
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 500;
+    transition: 0.5s;
+    cursor: pointer;
+    color: white
 }
