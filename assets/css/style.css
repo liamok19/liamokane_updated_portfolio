@@ -14,10 +14,11 @@
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
 }
 
 body {
-    background-color: rgb(242, 236, 253) ;
+    background-color: #232323 ;
 }
 
 
@@ -61,6 +62,101 @@ h1 {
 
 }
 
-worklist {
-    justify-content: space-between;
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #232323;
+    overflow: hidden;
+    padding: 100px 20px;
+    box-sizing: border-box;
+}
+
+section::before{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgb(146, 21, 21);
+    clip-path: circle(65% at 100% -20%);
+}
+
+section::after{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgb(21, 96, 146);
+    clip-path: circle(35% at 0% 100%);
+}
+.container {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container .card {
+    position: relative;  
+    width: 300px;
+    height: 400px;
+    margin: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 10px 25px rgba(0,0,0, 0.2);
+    backdrop-filter: blur(15px);
+}
+
+
+.container .card .imgBx{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    transition: 0.5s ease-in-out;
+}
+.container .card:hover .imgBx{
+    transform: translateY(-100px);
+}
+.container .card .imgBx img{
+    max-width: 50vw;
+    margin: 0 0 20px;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.container .card:hover .imgBx img {
+transform: translate(-20px,-40px) rotate(-25deg) scale(1.2);
+}
+
+.container .card .imgBx h4 {
+    color: rgb(255, 255, 255) ;
+    font-weight: 500;
+}
+
+.container .card .content{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s ease-in-out;
+}
+.container .card .content .github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
