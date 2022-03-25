@@ -252,6 +252,27 @@ transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
         height: 450px;
         margin: 20px -19px;
     }
+    .container .card .content{
+        opacity: 1;
+        visibility: visible;
+    }
+    .body-buffer1{
+        margin: 30px;  
+    }
+    .body-buffer2{
+        margin: 30px;  
+    }
+    .col-8 {
+        width: 100%;
+    }  
+    .container .card .content .logline {
+        width: 350px;
+        height: 26px;
+    }
+    .header-image {
+        max-width: 348px;
+        opacity: 100%;
+    } 
 }    
 
 
