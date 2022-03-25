@@ -4,6 +4,7 @@
 2 (b). Header Propertes additional styling, animation
 3 (a). Body Properties
 3 (b). Body Propertes additional styling, animation
+3 (c). Body: Mobile responsivness media query 
 4 (a). Footer Properties
 4 (b). Footer Propertes additional styling, animation
 4 (c). Footer: Mobile responsivness media query  */
@@ -40,14 +41,16 @@ a {
     margin: 110px;  
 }
 .body-buffer2 {
-    margin: 170px;  
+    margin: 150px;  
 }
 .body-buffer3 {
     margin: 7vh;  
 }
 h1 {
-    font-size: 75px;
+    font-size: 90px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Poppins;
+    /* font-weight: bold; */
 }
 
 .header-image{
@@ -70,6 +73,7 @@ section {
     align-items: center;
     min-height: 100vh;
     background-image: url('../images/portfoliobg.png');
+    background-repeat: round;
     /* background: #5f5d5a; */
     overflow: hidden;
     padding: 100px 20px;
@@ -235,6 +239,22 @@ transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
 #mtb3_font {
     font-size: 17pt;
 }
+
+/* 3 (c). Body: Mobile responsivness media query  */
+@media screen and (max-width: 768px){
+    .row{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .container .card {
+        width: 350px;
+        height: 450px;
+        margin: 20px -19px;
+    }
+}    
+
+
 
 /* 4 (a). Footer Properties */
 /* buffer for column 1 bootstrap properties in the Contact container */
