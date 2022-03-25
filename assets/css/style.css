@@ -69,7 +69,7 @@ section {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url('../images/portfoliobg.jpg');
+    background-image: url('../images/portfoliobg.png');
     /* background: #5f5d5a; */
     overflow: hidden;
     padding: 100px 20px;
@@ -143,34 +143,44 @@ section::after{
 /*applying rotate transformation and scale style fucntion to the project images and only activated on hover  */
 .container .card:hover .imgBx #wd_projectLink0 {
 transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
+    cursor:pointer ;
 }
     .container .card:hover .imgBx  #wd_projectLink1 {
         transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
+        cursor:pointer ;
         }
         .container .card:hover .imgBx  #wd_projectLink2 {
             transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
+            cursor:pointer ;
             }
             .container .card:hover .imgBx  #wd_projectLink3 {
                 transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
+                cursor:pointer ;
                 }
                 .container .card:hover .imgBx  #anim_projectLink0 {
                     transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
+                    cursor:pointer ;
                     }
                     .container .card:hover .imgBx  #anim_projectLink1 {
                         transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
+                        cursor:pointer ;
                         }
                         .container .card:hover .imgBx  #anim_projectLink2 {
                             transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
+                            cursor:pointer ;
                             }
                             .container .card:hover .imgBx  #vfx_projectLink0 {
                                 transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
+                                cursor:pointer ;
                                 }
                                 .container .card:hover .imgBx  #vfx_projectLink1 {
                                     transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
+                                    cursor:pointer ;
                                     }
                                     .container .card:hover .imgBx  #vfx_projectLink2 {
                                         transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
-                                        }
+                                        cursor:pointer ;
+                                    }
 
 .container .card .imgBx h4 {
     color: rgb(255, 255, 255) ;
