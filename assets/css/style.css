@@ -69,7 +69,8 @@ section {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #5f5d5a;
+    background-image: url('../images/portfoliobg.jpg');
+    /* background: #5f5d5a; */
     overflow: hidden;
     padding: 100px 20px;
     box-sizing: border-box;
