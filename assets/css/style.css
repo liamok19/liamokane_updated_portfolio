@@ -273,6 +273,9 @@ transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
         max-width: 348px;
         opacity: 100%;
     } 
+    .container .card .imgBx img {
+        max-width: 100vw;
+    }
 }    
 
 
