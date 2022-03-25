@@ -149,24 +149,27 @@ transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
         .container .card:hover .imgBx  #wd_projectLink2 {
             transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
             }
-            .container .card:hover .imgBx  #anim_projectLink0 {
+            .container .card:hover .imgBx  #wd_projectLink3 {
                 transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
                 }
-                .container .card:hover .imgBx  #anim_projectLink1 {
+                .container .card:hover .imgBx  #anim_projectLink0 {
                     transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
                     }
-                    .container .card:hover .imgBx  #anim_projectLink2 {
+                    .container .card:hover .imgBx  #anim_projectLink1 {
                         transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
                         }
-                        .container .card:hover .imgBx  #vfx_projectLink0 {
+                        .container .card:hover .imgBx  #anim_projectLink2 {
                             transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
                             }
-                            .container .card:hover .imgBx  #vfx_projectLink1 {
+                            .container .card:hover .imgBx  #vfx_projectLink0 {
                                 transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
                                 }
-                                .container .card:hover .imgBx  #anim_projectLink2 {
+                                .container .card:hover .imgBx  #vfx_projectLink1 {
                                     transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
                                     }
+                                    .container .card:hover .imgBx  #vfx_projectLink2 {
+                                        transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
+                                        }
 
 .container .card .imgBx h4 {
     color: rgb(255, 255, 255) ;
@@ -218,7 +221,9 @@ transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
     color: white
 }
 
-
+#mtb3_font {
+    font-size: 17pt;
+}
 
 /* 4 (a). Footer Properties */
 /* buffer for column 1 bootstrap properties in the Contact container */
@@ -228,7 +233,6 @@ transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    color: floralwhite;
     font-size: 20px;
 }
 
@@ -279,3 +283,4 @@ img .social-icon{
         margin: 5px; 
     }
 }
+
