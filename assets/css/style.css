@@ -186,6 +186,7 @@ transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
                                         cursor:pointer ;
                                     }
 
+/* container card for portfolio styling and animation applied */
 .container .card .imgBx h4 {
     color: rgb(255, 255, 255) ;
     font-weight: 500;
@@ -275,6 +276,18 @@ transform: translate(-20px,-40px) rotate(-10deg) scale(1.2);
     } 
     .container .card .imgBx img {
         max-width: 100vw;
+    }
+    .container .card:hover .imgBx #wd_projectLink0, #wd_projectLink0 {
+        transform: translate(0px, 0px) rotate(0deg) scale(1);
+        cursor:pointer ;
+    }
+    .container .card:hover .imgBx #wd_projectLink0, #wd_projectLink1 {
+        transform: translate(0px, 0px) rotate(0deg) scale(1);
+        cursor:pointer ;
+    }
+    .container .card:hover .imgBx #wd_projectLink0, #wd_projectLink2 {
+        transform: translate(0px, 0px) rotate(0deg) scale(1);
+        cursor:pointer ;
     }
 }    
 
