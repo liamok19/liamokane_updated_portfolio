@@ -13,7 +13,7 @@ Deployed Link:
 1. Liam O'Kane   
     1. Github: https://github.com/liamok19
     2. Email: liamokane19@gmail.com
-    3. Portfolio: https://liamok19.github.io/liamo_portfolio/
+    3. Portfolio: https://liamok19.github.io/liamokane_updated_portfolio/
 
 ## Table of contents
 - [License](#license)
