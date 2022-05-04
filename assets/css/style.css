@@ -47,7 +47,7 @@ a {
     margin: 110px;  
 }
 .body-buffer2 {
-    margin: 150px;  
+    margin: 100px;  
 }
 .body-buffer3 {
     margin: 7vh;  
@@ -98,6 +98,19 @@ section::before{
 }
 .skill_icon {
     width:10vw;
+}
+
+#projectIconsJS {
+    width: 50px;
+    height: 50px;
+}
+#projectIconsHTML {
+    width: 50px;
+    height: 50px;
+}
+#projectIconsSQL {
+    width: 50px;
+    height: 50px;
 }
 .individualSkillIcon{
     display: flex;
